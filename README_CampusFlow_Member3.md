@@ -10,16 +10,16 @@
 Use a C++17-capable compiler (GCC 16.3 is fine):
 
 ```bash
-g++ -std=c++17 -Wall -Wextra -Wpedantic -Wconversion -Wshadow main.cpp -o campusflow
+g++ -std=c++17 -Wall -Wextra -Wpedantic -Wconversion -Wshadow main.cpp -o campus_flow
 ```
 
 Run interactively:
 
 ```bash
-./campusflow
+./campus_flow
 ```
 
-On Windows PowerShell, run `./campusflow.exe` after compiling with the executable name adjusted for your compiler.
+On Windows PowerShell, run `./campus_flow.exe` after compiling with the executable name adjusted for your compiler.
 
 To replay the sample flow in a shell:
 
