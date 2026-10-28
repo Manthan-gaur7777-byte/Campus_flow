@@ -135,6 +135,11 @@ void setupVenue(VenueGraph& graph) {
     }
 
     const int maxConnections = locationCount * (locationCount - 1) / 2;
+    if(maxConnections == 0) {
+        cout << "Only one location was added, so no connections can be created.\n";
+        cout << "\nHence, the venue setup is complete. The main menu is ready.\n";
+        return;
+    }
     const int connectionCount = readInt(
         "Number of connections/corridors (0-" + to_string(maxConnections) + "): ",
         0, maxConnections);
