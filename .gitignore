@@ -1,0 +1,10 @@
+*.o
+*.exe
+*.dat
+*.tmp
+campusflow
+test_all
+test_waitlist
+test_occupancy
+test_graph
+test_integration

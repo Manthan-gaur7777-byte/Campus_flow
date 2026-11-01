@@ -1,0 +1,109 @@
+12
+50
+18
+20
+0
+22
+6
+Gate
+1
+200
+20
+y
+Zone 0
+2
+5
+0
+y
+Zone 1
+2
+5
+0
+y
+Exit A
+4
+100
+0
+y
+Exit B
+4
+100
+0
+y
+Storage Room
+5
+20
+18
+y
+6
+Gate
+Zone 0
+10
+20
+40
+y
+Gate
+Zone 1
+12
+24
+30
+y
+Zone 0
+Exit A
+15
+30
+20
+y
+Zone 1
+Exit B
+15
+30
+20
+y
+Zone 0
+Zone 1
+8
+16
+10
+y
+Zone 1
+Storage Room
+5
+10
+10
+y
+21
+1
+12
+2
+Gate
+185
+12
+4
+Zone 0
+Exit A
+n
+8
+Zone 0
+9
+5
+Gate
+Zone 1
+90
+6
+Gate
+Exit B
+7
+Storage Room
+3
+Zone 1
+n
+7
+Gate
+10
+11
+2
+7
+0
+23
+0

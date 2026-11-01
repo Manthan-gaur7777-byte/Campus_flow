@@ -199,6 +199,13 @@ public:
         return true;
     }
 
+    bool updateCapacity(int id, int capacity) {
+        if (!validId(id) || capacity <= 0) return false;
+        locations[id].capacity = capacity;
+        refreshCongestionAlert(id);
+        return true;
+    }
+
     bool setLocationOpen(int id, bool open) {
         if (!validId(id)) return false;
         locations[id].open = open;

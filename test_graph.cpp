@@ -328,7 +328,42 @@ static void testHysteresis() {
     CHECK(h.getLocation(0).congestionAlertActive);
 }
 
-static void testConnectionToggle() {
+static void test_congestion_recommendations() {
+    std::cout << "[congestion recommendations]\n";
+    VenueGraph g;
+    g.addLocation("Crowded Hall", "Hall", 100, 100, true);
+    g.addLocation("Full Hall", "Hall", 50, 50, true);
+    g.addLocation("Open Hall", "Hall", 100, 20, true);
+    g.addLocation("Exit", "Exit", 100, 0, true);
+    g.addConnection(0, 1, 2, 2, 0, true);
+    g.addConnection(0, 2, 8, 8, 0, true);
+    g.addConnection(0, 3, 1, 1, 0, true);
+
+    CHECK(g.getLocation(0).congestionAlertActive);
+    auto routes = g.dijkstra(0);
+    int recommended = -1;
+    for (int i = 0; i < g.size(); ++i) {
+        const auto& location = g.getLocation(i);
+        if (i == 0 || !location.open || location.type == "Exit" ||
+            location.type == "Junction" ||
+            location.occupancy >= location.capacity ||
+            !std::isfinite(routes.distance[i])) {
+            continue;
+        }
+        if (recommended == -1 ||
+            routes.distance[i] < routes.distance[recommended]) {
+            recommended = i;
+        }
+    }
+
+    CHECK(recommended == 2);
+    CHECK(near(routes.distance[recommended], 8));
+    CHECK(g.getLocation(recommended).capacity -
+              g.getLocation(recommended).occupancy ==
+          80);
+}
+
+static void testconnection_toggle() {
     std::cout << "[connection open/close is symmetric]\n";
     VenueGraph g = makeDiamond();
     CHECK(g.setConnectionOpen(0, 1, false));
@@ -340,6 +375,22 @@ static void testConnectionToggle() {
     CHECK(!g.setLocationOpen(42, false));
 }
 
+static void test_update_capacity() {
+    std::cout << "[update capacity]\n";
+    VenueGraph g;
+    g.addLocation("Hall", "Hall", 100, 50, true);
+    CHECK(!g.getLocation(0).congestionAlertActive);
+    CHECK(g.updateCapacity(0, 60));
+    CHECK(g.getLocation(0).capacity == 60);
+    CHECK(g.getLocation(0).congestionAlertActive);
+    CHECK(g.updateCapacity(0, 100));
+    CHECK(!g.getLocation(0).congestionAlertActive);
+    CHECK(!g.updateCapacity(0, 0));
+    CHECK(!g.updateCapacity(0, -5));
+    CHECK(!g.updateCapacity(3, 10));
+    CHECK(g.getLocation(0).capacity == 100);
+}
+
 int main() {
     testBuildAndValidation();
     testConfigFallback();
@@ -349,13 +400,15 @@ int main() {
     testCongestionCost();
     testCongestionChangesRoute();
     testBFS();
-    testEvacuationMultiExit();
+    testEvacuationMultiExit();  
     testEvacuationClosedExit();
     testEvacuationAllExitsClosed();
     testEvacuationDisconnectedAndClosedEdge();
     testEvacuationFollowsPointers();
     testHysteresis();
-    testConnectionToggle();
+    test_congestion_recommendations();
+    testconnection_toggle();
+    test_update_capacity();
 
     std::cout << "\nPassed: " << g_passed << "   Failed: " << g_failed << '\n';
     return g_failed == 0 ? 0 : 1;

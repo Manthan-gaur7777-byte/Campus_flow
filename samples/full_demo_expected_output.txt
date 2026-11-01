@@ -1,0 +1,869 @@
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: ID: Name: Priority (0-9): Preferred zone (0-2): Registered.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: ID: Name: Priority (0-9): Preferred zone (0-2): Rejected: ID is empty or already exists.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: How many participants: 50 participants registered.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: ID: P101 | Asha | priority 0 | pref zone 0 | REGISTERED
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: ID: Participant not found.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Row: Col: Seat blocked.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Row: Col: Seat reserved.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Seat Grid
+F=Free A=Allocated O=Occupied X=Blocked R=Reserved
+   0 1 2 3 4 5 6 7 
+0 |F F F F F F F F   (zone 0)
+1 |F F F F F F F F   (zone 0)
+2 |F F F F F F F F   (zone 1)
+3 |F F F F F F F F   (zone 1)
+4 |F F F F F F F F   (zone 2)
+5 |F F F F F F R X   (zone 2)
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: 46 seated, 5 waitlisted.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Seat Grid
+F=Free A=Allocated O=Occupied X=Blocked R=Reserved
+   0 1 2 3 4 5 6 7 
+0 |A A A A A A A A   (zone 0)
+1 |A A A A A A A A   (zone 0)
+2 |A A A A A A A A   (zone 1)
+3 |A A A A A A A A   (zone 1)
+4 |A A A A A A A A   (zone 2)
+5 |A A A A A A R X   (zone 2)
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Zone 0: free 0, in use 16
+Zone 1: free 0, in use 16
+Zone 2: free 0, in use 14
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Waitlist (5 waiting)
+ Zone 0: 2 waiting
+   1. P146 (priority 0, joined #0)
+   2. P149 (priority 0, joined #3)
+ Zone 1: 2 waiting
+   1. P147 (priority 1, joined #1)
+   2. P150 (priority 1, joined #4)
+ Zone 2: 1 waiting
+   1. P148 (priority 2, joined #2)
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Zone | Capacity | Checked-in | Booked | Free | Reserved | Occupancy | Level
+   0 |       16 |          0 |     16 |    0 |        0 |      0.0% | LOW
+   1 |       16 |          0 |     16 |    0 |        0 |      0.0% | LOW
+   2 |       15 |          0 |     14 |    0 |        1 |      0.0% | LOW
+ ALL |       47 |          0 |     46 |    0 |        1 |      0.0% | LOW
+Waitlist length: 5
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Consistent: hash table, seat grid and segment tree agree.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Zone to check in (0-2): 16 people checked in to zone 0.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Zone | Capacity | Checked-in | Booked | Free | Reserved | Occupancy | Level
+   0 |       16 |         16 |      0 |    0 |        0 |    100.0% | OVERCROWDED
+   1 |       16 |          0 |     16 |    0 |        0 |      0.0% | LOW
+   2 |       15 |          0 |     14 |    0 |        1 |      0.0% | LOW
+ ALL |       47 |         16 |     30 |    0 |        1 |     34.0% | NORMAL
+Waitlist length: 5
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: 
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+========== VENUE LOCATIONS ==========
+[0] Gate (Entrance) | occupancy 0/200 (0.0%) | ACCESSIBLE | congestion alert: off
+[1] Junction (Junction) | occupancy 0/100 (0.0%) | ACCESSIBLE | congestion alert: off
+[2] Zone 0 (Hall) | occupancy 16/16 (100.0%) | ACCESSIBLE | congestion alert: ACTIVE
+[3] Zone 1 (Hall) | occupancy 0/16 (0.0%) | ACCESSIBLE | congestion alert: off
+[4] Zone 2 (Hall) | occupancy 0/15 (0.0%) | ACCESSIBLE | congestion alert: off
+[5] Exit East (Exit) | occupancy 0/150 (0.0%) | ACCESSIBLE | congestion alert: off
+[6] Exit West (Exit) | occupancy 0/150 (0.0%) | ACCESSIBLE | congestion alert: off
+
+========== CONNECTIONS (BIDIRECTIONAL) ==========
+Gate <-> Junction | normal 12.0 s | clearance 28.0 s | congestion likelihood 40.0% | OPEN
+Junction <-> Zone 0 | normal 18.0 s | clearance 45.0 s | congestion likelihood 60.0% | OPEN
+Junction <-> Zone 1 | normal 18.0 s | clearance 45.0 s | congestion likelihood 60.0% | OPEN
+Junction <-> Zone 2 | normal 18.0 s | clearance 45.0 s | congestion likelihood 60.0% | OPEN
+Zone 0 <-> Zone 1 | normal 10.0 s | clearance 20.0 s | congestion likelihood 30.0% | OPEN
+Zone 0 <-> Exit West | normal 24.0 s | clearance 40.0 s | congestion likelihood 15.0% | OPEN
+Zone 1 <-> Zone 2 | normal 10.0 s | clearance 20.0 s | congestion likelihood 30.0% | OPEN
+Zone 2 <-> Exit East | normal 22.0 s | clearance 50.0 s | congestion likelihood 20.0% | OPEN
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+========== CONGESTION RECOMMENDATIONS ==========
+Zone 0 (100.0% full): at full capacity. Hold new entries.
+  Redirect people to Zone 1: 16 spaces free, about 13.0 s away.
+  Nearest open exit: Exit West (estimated clearance cost 46.0 s).
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Starting location: Route: Zone 0 -> Exit West
+Total estimated evacuation route cost: 46.00 seconds
+  Zone 0 -> Exit West | base=40.00 s | adjusted=46.00 s
+The chosen exit is Exit West.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Start location: Destination location: Route: Gate -> Junction -> Zone 2 -> Exit East
+Total estimated travel time: 52.00 seconds
+  Gate -> Junction | base=12.00 s | adjusted=12.00 s
+  Junction -> Zone 2 | base=18.00 s | adjusted=18.00 s
+  Zone 2 -> Exit East | base=22.00 s | adjusted=22.00 s
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Starting location: Reachable locations from Gate (BFS order):
+  - Gate
+  - Junction
+  - Zone 0
+  - Zone 1
+  - Zone 2
+  - Exit West
+  - Exit East
+Total reachable locations, including the start: 7
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Location to update: Should this location be accessible? (y/n): Exit West is now closed.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Starting location: Route: Zone 0 -> Zone 1 -> Zone 2 -> Exit East
+Total estimated evacuation route cost: 96.00 seconds
+  Zone 0 -> Zone 1 | base=20.00 s | adjusted=26.00 s
+  Zone 1 -> Zone 2 | base=20.00 s | adjusted=20.00 s
+  Zone 2 -> Exit East | base=50.00 s | adjusted=50.00 s
+The chosen exit is Exit East.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Location to update: Should this location be accessible? (y/n): Exit West is now accessible.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+========== CAMPUSFLOW CROWD REPORT ==========
+Gate: 0/200 people (0.00%), accessible, alert=off
+Junction: 0/100 people (0.00%), accessible, alert=off
+Zone 0: 16/16 people (100.00%), accessible, alert=ACTIVE
+Zone 1: 0/16 people (0.00%), accessible, alert=off
+Zone 2: 0/15 people (0.00%), accessible, alert=off
+Exit East: 0/150 people (0.00%), accessible, alert=off
+Exit West: 0/150 people (0.00%), accessible, alert=off
+
+Summary
+Locations: 7
+Accessible locations: 7
+Available exits: 2
+Active congestion alerts: 1
+Locations over capacity: 0
+Connections: 8
+Usable connections: 8
+Closed/unusable connections: 0
+WARNING: review locations with active congestion alerts.
+Note: route costs are estimates based on entered values and the project's congestion heuristic; they are not live sensor data.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Crowd simulation:
+  1. Surge at one location
+  2. Random crowd across the venue (seeded)
+Choose mode: Location to surge: Fill level (% of capacity, 0-200): Gate is now 190/200 (95.0%), alert ACTIVE.
+
+========== CONGESTION RECOMMENDATIONS ==========
+Gate (95.0% full): near capacity. Slow or hold new entries.
+  Redirect people to Zone 1: 16 spaces free, about 34.6 s away.
+  Nearest open exit: Exit East (estimated clearance cost 133.6 s).
+Zone 0 (100.0% full): at full capacity. Hold new entries.
+  Redirect people to Zone 1: 16 spaces free, about 13.0 s away.
+  Nearest open exit: Exit West (estimated clearance cost 46.0 s).
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Zone to check in (0-2): 16 people checked in to zone 1.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Minutes to advance: Clock = 10 min (grace 15 min).
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Grace period not over yet (clock 10 < 15).
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Minutes to advance: Clock = 15 min (grace 15 min).
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: 14 no-show seat(s) released.
+[waitlist] P148 moved from waitlist to seat (4,3)
+[waitlist] P147 moved from waitlist to seat (4,4)
+[waitlist] P150 moved from waitlist to seat (5,5)
+[waitlist] P146 moved from waitlist to seat (4,5)
+[waitlist] P149 moved from waitlist to seat (4,6)
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Waitlist (0 waiting)
+ Zone 0: 0 waiting
+ Zone 1: 0 waiting
+ Zone 2: 0 waiting
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Zone | Capacity | Checked-in | Booked | Free | Reserved | Occupancy | Level
+   0 |       16 |         16 |      0 |    0 |        0 |    100.0% | OVERCROWDED
+   1 |       16 |         16 |      0 |    0 |        0 |    100.0% | OVERCROWDED
+   2 |       15 |          0 |      5 |    9 |        1 |      0.0% | LOW
+ ALL |       47 |         32 |      5 |    9 |        1 |     68.1% | NORMAL
+Waitlist length: 0
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Consistent: hash table, seat grid and segment tree agree.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: ID: New row: New col: Done.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Seat Grid
+F=Free A=Allocated O=Occupied X=Blocked R=Reserved
+   0 1 2 3 4 5 6 7 
+0 |O O O O O O O O   (zone 0)
+1 |O O O O O O O O   (zone 0)
+2 |O O O O O O O O   (zone 1)
+3 |O O O O O O O O   (zone 1)
+4 |A F F F A A A F   (zone 2)
+5 |F F F F F A R X   (zone 2)
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: ID: Done.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: ID: Done.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: ID: P101 | Asha | priority 0 | pref zone 0 | CANCELLED
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: File name: Saved.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: File name: Loaded.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Consistent: hash table, seat grid and segment tree agree.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Zone | Capacity | Checked-in | Booked | Free | Reserved | Occupancy | Level
+   0 |       16 |         15 |      0 |    1 |        0 |     93.8% | OVERCROWDED
+   1 |       16 |         16 |      0 |    0 |        0 |    100.0% | OVERCROWDED
+   2 |       15 |          0 |      4 |   10 |        1 |      0.0% | LOW
+ ALL |       47 |         31 |      4 |   11 |        1 |     66.0% | NORMAL
+Waitlist length: 0
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Goodbye.

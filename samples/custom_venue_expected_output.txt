@@ -1,0 +1,511 @@
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: How many participants: 50 participants registered.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: 48 seated, 2 waitlisted.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Zone to check in (0-2): 16 people checked in to zone 0.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: 
+========== INITIAL VENUE SETUP ==========
+Enter the venue locations first, then their connections.
+Location names are case-insensitive when searched.
+Occupancy may exceed capacity so overloads can be reported.
+Number of locations (1-500): 
+Location 1 of 6
+Location name: Location type:
+  1. Entrance
+  2. Hall
+  3. Junction
+  4. Exit
+  5. Other
+Choose type: Maximum capacity (people, > 0): Initial occupancy (people, >= 0): Is this location currently accessible? (y/n): 
+Location 2 of 6
+Location name: Location type:
+  1. Entrance
+  2. Hall
+  3. Junction
+  4. Exit
+  5. Other
+Choose type: Maximum capacity (people, > 0): Initial occupancy (people, >= 0): Is this location currently accessible? (y/n): 
+Location 3 of 6
+Location name: Location type:
+  1. Entrance
+  2. Hall
+  3. Junction
+  4. Exit
+  5. Other
+Choose type: Maximum capacity (people, > 0): Initial occupancy (people, >= 0): Is this location currently accessible? (y/n): 
+Location 4 of 6
+Location name: Location type:
+  1. Entrance
+  2. Hall
+  3. Junction
+  4. Exit
+  5. Other
+Choose type: Maximum capacity (people, > 0): Initial occupancy (people, >= 0): Is this location currently accessible? (y/n): 
+Location 5 of 6
+Location name: Location type:
+  1. Entrance
+  2. Hall
+  3. Junction
+  4. Exit
+  5. Other
+Choose type: Maximum capacity (people, > 0): Initial occupancy (people, >= 0): Is this location currently accessible? (y/n): 
+Location 6 of 6
+Location name: Location type:
+  1. Entrance
+  2. Hall
+  3. Junction
+  4. Exit
+  5. Other
+Choose type: Maximum capacity (people, > 0): Initial occupancy (people, >= 0): Is this location currently accessible? (y/n): Number of connections/corridors (0-15): 
+Connection 1 of 6
+From location name: To location name: Estimated normal one-way travel time in seconds (> 0 and the minimum value is 0.001): Estimated crowd clearance time for this connection in seconds (> 0 and the minimum value is 0.001): How prone is this connection to congestion? Enter 0-100 (%): Is this connection currently open? (y/n): 
+Connection 2 of 6
+From location name: To location name: Estimated normal one-way travel time in seconds (> 0 and the minimum value is 0.001): Estimated crowd clearance time for this connection in seconds (> 0 and the minimum value is 0.001): How prone is this connection to congestion? Enter 0-100 (%): Is this connection currently open? (y/n): 
+Connection 3 of 6
+From location name: To location name: Estimated normal one-way travel time in seconds (> 0 and the minimum value is 0.001): Estimated crowd clearance time for this connection in seconds (> 0 and the minimum value is 0.001): How prone is this connection to congestion? Enter 0-100 (%): Is this connection currently open? (y/n): 
+Connection 4 of 6
+From location name: To location name: Estimated normal one-way travel time in seconds (> 0 and the minimum value is 0.001): Estimated crowd clearance time for this connection in seconds (> 0 and the minimum value is 0.001): How prone is this connection to congestion? Enter 0-100 (%): Is this connection currently open? (y/n): 
+Connection 5 of 6
+From location name: To location name: Estimated normal one-way travel time in seconds (> 0 and the minimum value is 0.001): Estimated crowd clearance time for this connection in seconds (> 0 and the minimum value is 0.001): How prone is this connection to congestion? Enter 0-100 (%): Is this connection currently open? (y/n): 
+Connection 6 of 6
+From location name: To location name: Estimated normal one-way travel time in seconds (> 0 and the minimum value is 0.001): Estimated crowd clearance time for this connection in seconds (> 0 and the minimum value is 0.001): How prone is this connection to congestion? Enter 0-100 (%): Is this connection currently open? (y/n): 
+Venue setup complete. The main menu is ready.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: 
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+========== VENUE LOCATIONS ==========
+[0] Gate (Entrance) | occupancy 20/200 (10.0%) | ACCESSIBLE | congestion alert: off
+[1] Zone 0 (Hall) | occupancy 16/16 (100.0%) | ACCESSIBLE | congestion alert: ACTIVE
+[2] Zone 1 (Hall) | occupancy 0/16 (0.0%) | ACCESSIBLE | congestion alert: off
+[3] Exit A (Exit) | occupancy 0/100 (0.0%) | ACCESSIBLE | congestion alert: off
+[4] Exit B (Exit) | occupancy 0/100 (0.0%) | ACCESSIBLE | congestion alert: off
+[5] Storage Room (Other) | occupancy 18/20 (90.0%) | ACCESSIBLE | congestion alert: ACTIVE
+
+========== CONNECTIONS (BIDIRECTIONAL) ==========
+Gate <-> Zone 0 | normal 10.0 s | clearance 20.0 s | congestion likelihood 40.0% | OPEN
+Gate <-> Zone 1 | normal 12.0 s | clearance 24.0 s | congestion likelihood 30.0% | OPEN
+Zone 0 <-> Exit A | normal 15.0 s | clearance 30.0 s | congestion likelihood 20.0% | OPEN
+Zone 0 <-> Zone 1 | normal 8.0 s | clearance 16.0 s | congestion likelihood 10.0% | OPEN
+Zone 1 <-> Exit B | normal 15.0 s | clearance 30.0 s | congestion likelihood 20.0% | OPEN
+Zone 1 <-> Storage Room | normal 5.0 s | clearance 10.0 s | congestion likelihood 10.0% | OPEN
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+========== CONGESTION RECOMMENDATIONS ==========
+Zone 0 (100.0% full): at full capacity. Hold new entries.
+  Redirect people to Zone 1: 16 spaces free, about 8.8 s away.
+  Nearest open exit: Exit A (estimated clearance cost 36.0 s).
+Storage Room (90.0% full): near capacity. Slow or hold new entries.
+  Redirect people to Zone 1: 16 spaces free, about 5.5 s away.
+  Nearest open exit: Exit B (estimated clearance cost 40.9 s).
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Location to update: Current occupancy (people, >= 0): Occupancy updated for Gate.
+Current ratio: 92.5%
+CONGESTION ALERT: this location is above the alert's clearing threshold.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+========== CONGESTION RECOMMENDATIONS ==========
+Gate (92.5% full): near capacity. Slow or hold new entries.
+  Redirect people to Zone 1: 16 spaces free, about 15.3 s away.
+  Nearest open exit: Exit B (estimated clearance cost 60.7 s).
+Zone 0 (100.0% full): at full capacity. Hold new entries.
+  Redirect people to Zone 1: 16 spaces free, about 8.8 s away.
+  Nearest open exit: Exit A (estimated clearance cost 36.0 s).
+Storage Room (90.0% full): near capacity. Slow or hold new entries.
+  Redirect people to Zone 1: 16 spaces free, about 5.5 s away.
+  Nearest open exit: Exit B (estimated clearance cost 40.9 s).
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: First location: Second location: Should this connection be open? (y/n): Connection status updated.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Starting location: Route: Zone 0 -> Zone 1 -> Exit B
+Total estimated evacuation route cost: 47.60 seconds
+  Zone 0 -> Zone 1 | base=16.00 s | adjusted=17.60 s
+  Zone 1 -> Exit B | base=30.00 s | adjusted=30.00 s
+The chosen exit is Exit B.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+========== EVACUATION RECOMMENDATIONS ==========
+Gate -> Exit B | estimated route cost: 60.66 s
+Zone 0 -> Exit B | estimated route cost: 47.60 s
+Zone 1 -> Exit B | estimated route cost: 30.00 s
+Exit A -> Exit A | estimated route cost: 0.00 s
+Exit B -> Exit B | estimated route cost: 0.00 s
+Storage Room -> Exit B | estimated route cost: 40.90 s
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: First location: Second location: Updated congestion-proneness value (0-100%): Congestion-proneness value updated.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Start location: Destination location: Route: Gate -> Zone 1 -> Exit B
+Total estimated travel time: 36.99 seconds
+  Gate -> Zone 1 | base=12.00 s | adjusted=21.99 s
+  Zone 1 -> Exit B | base=15.00 s | adjusted=15.00 s
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Starting location: Reachable locations from Storage Room (BFS order):
+  - Storage Room
+  - Zone 1
+  - Gate
+  - Exit B
+  - Zone 0
+Total reachable locations, including the start: 5
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Location to update: Should this location be accessible? (y/n): Zone 1 is now closed.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Starting location: Reachable locations from Gate (BFS order):
+  - Gate
+  - Zone 0
+Total reachable locations, including the start: 2
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+========== CAMPUSFLOW CROWD REPORT ==========
+Gate: 185/200 people (92.50%), accessible, alert=ACTIVE
+Zone 0: 16/16 people (100.00%), accessible, alert=ACTIVE
+Zone 1: 0/16 people (0.00%), CLOSED, alert=off
+Exit A: 0/100 people (0.00%), accessible, alert=off
+Exit B: 0/100 people (0.00%), accessible, alert=off
+Storage Room: 18/20 people (90.00%), accessible, alert=ACTIVE
+
+Summary
+Locations: 6
+Accessible locations: 5
+Available exits: 2
+Active congestion alerts: 3
+Locations over capacity: 0
+Connections: 6
+Usable connections: 1
+Closed/unusable connections: 5
+WARNING: review locations with active congestion alerts.
+Note: route costs are estimates based on entered values and the project's congestion heuristic; they are not live sensor data.
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: Crowd simulation:
+  1. Surge at one location
+  2. Random crowd across the venue (seeded)
+Choose mode: Seed (0-1000000): Gate: 175/200 (87.5%)
+Zone 0: 13/16 (81.2%)
+Exit A: 100/100 (100.0%)
+Exit B: 38/100 (38.0%)
+Storage Room: 7/20 (35.0%)
+Random crowd applied with seed 7. Active alerts: 3.
+
+========== CONGESTION RECOMMENDATIONS ==========
+Gate (87.5% full): near capacity. Slow or hold new entries.
+  No reachable open location has spare capacity. Consider opening another area.
+  WARNING: no open exit is reachable from here. Evacuation would be blocked.
+Zone 0 (81.2% full): near capacity. Slow or hold new entries.
+  No reachable open location has spare capacity. Consider opening another area.
+  WARNING: no open exit is reachable from here. Evacuation would be blocked.
+Exit A (100.0% full): at full capacity. Hold new entries.
+  No reachable open location has spare capacity. Consider opening another area.
+  Nearest open exit: Exit A (estimated clearance cost 0.0 s).
+
+============= CAMPUSFLOW: venue graph and crowd movement =============
+1. Display venue and connections
+2. Update a location's occupancy
+3. Mark a location accessible/closed
+4. Open/close a connection
+5. Update a connection's congestion likelihood
+6. Find minimum estimated-travel-time route (Dijkstra)
+7. List reachable locations (BFS)
+8. Find best evacuation route to an available exit
+9. Show evacuation recommendations for all locations
+10. Show crowd/congestion analytics report
+11. Simulate a crowd
+12. Show congestion recommendations
+0. Back to main menu
+Choose an option: 
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Consistent: hash table, seat grid and segment tree agree.
+
+===== CampusFlow: Seating Core =====
+ 1 Register participant      8 Show seat grid
+ 2 Allocate seat             9 Zone statistics
+ 3 Check in                 10 Block a seat
+ 4 Mark no-show             11 Reserve a seat
+ 5 Reassign seat            12 Load sample data
+ 6 Cancel registration      13 Save to file
+ 7 Show participant         14 Load from file
+ 15 Show waitlist          16 Advance clock
+ 17 Run no-show check       18 Seat all registered
+ 19 Occupancy report         20 Simulate arrivals (zone)
+ 21 Venue graph / evacuation 22 Custom venue graph setup
+ 23 Verify data consistency
+ 0 Exit
+Choice: Goodbye.
