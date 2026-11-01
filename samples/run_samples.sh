@@ -1,8 +1,7 @@
 #!/bin/sh
 cd "$(dirname "$0")/.." || exit 1
 ROOT=$(pwd)
-APP="$ROOT/campusflow"
-[ -x "$ROOT/campusflow.exe" ] && APP="$ROOT/campusflow.exe"
+APP="$ROOT/a.out"
 if [ ! -x "$APP" ]; then
     echo "Build the program first: make"
     exit 1

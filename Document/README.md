@@ -5,8 +5,8 @@ built on five hand-written data structures: hash table, 2D seat grid,
 segment tree, min-heap waitlist and venue graph.
 
 ```
-make          # build ./campusflow
-./campusflow  # run
+make          # build ./a.out
+./a.out  # run
 make test     # 5 test suites
 make demo     # replay samples/ and compare with expected output
 ```

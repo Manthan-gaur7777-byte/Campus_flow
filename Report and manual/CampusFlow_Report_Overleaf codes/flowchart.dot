@@ -1,0 +1,53 @@
+digraph G {
+  rankdir=TB; nodesep=0.25; ranksep=0.4; newrank=true;
+  node [fontname="Helvetica", fontsize=10, shape=box, style="rounded,filled", fillcolor="#F4F6F8", color="#44546A"];
+  edge [fontname="Helvetica", fontsize=9, color="#44546A"];
+
+  start [label="START", shape=oval, fillcolor="#D9EAD3"];
+  init  [label="Initialise: hash table, 6x8 seat grid,\nsegment tree, waitlist heaps, venue graph"];
+  menu  [label="Show main menu\nread choice", shape=box];
+  dec   [label="Choice?", shape=diamond, fillcolor="#FFF2CC"];
+  stop  [label="EXIT", shape=oval, fillcolor="#F4CCCC"];
+
+  reg   [label="1 Register\nhash insert\n(reject duplicate ID)"];
+  alloc [label="2 / 18 Allocate seat\nsegment tree: first free seat\nin preferred zone"];
+  free  [label="Free seat\nfound?", shape=diamond, fillcolor="#FFF2CC"];
+  near  [label="Overflow to\nnearest zone"];
+  full  [label="Venue full?", shape=diamond, fillcolor="#FFF2CC"];
+  wl    [label="Push to waitlist\n(min-heap: priority,\nthen join order)"];
+  setseat [label="Seat grid assigns seat\nand updates segment tree", fillcolor="#DDEBF7"];
+
+  chk   [label="3 / 20 Check in\nAllocated -> Occupied\n(tree updated)"];
+  ns    [label="4 / 17 No-show, 6 Cancel, 5 Reassign\nfree the seat (tree updated)"];
+  promo [label="Pop best person\nfrom waitlist heap", fillcolor="#DDEBF7"];
+
+  rep   [label="8 / 9 / 15 / 19 / 7\nReports: grid, zones,\nwaitlist, occupancy level\n(read from tree)"];
+  gmenu [label="21 / 22 Venue graph menu"];
+  sync  [label="venue_link: copy zone capacity and\noccupancy from segment tree\ninto Zone 0-2 halls", fillcolor="#DDEBF7"];
+  algo  [label="Dijkstra route / BFS reach /\nmulti-source evacuation /\ncongestion alerts (80% on, 70% off)"];
+  io    [label="12 Load sample, 13 Save,\n14 Load, 10 Block, 11 Reserve,\n16 Advance clock, 23 Verify"];
+
+  start -> init -> menu -> dec;
+  dec -> reg [label="register"];
+  dec -> alloc [label="allocate"];
+  dec -> chk [label="check-in"];
+  dec -> ns [label="release"];
+  dec -> rep [label="report"];
+  dec -> gmenu [label="graph"];
+  dec -> io [label="data / clock"];
+  dec -> stop [label="0"];
+
+  alloc -> free;
+  free -> setseat [label="yes"];
+  free -> near [label="no"];
+  near -> full;
+  full -> setseat [label="no"];
+  full -> wl [label="yes"];
+
+  ns -> promo -> alloc [label="seat them"];
+  gmenu -> sync -> algo;
+
+  back [label="Return to main menu", shape=oval, fillcolor="#E7E6E6"];
+  reg -> back; setseat -> back; wl -> back; chk -> back; rep -> back; algo -> back; io -> back;
+  back -> menu [constraint=false, style=dashed];
+}

@@ -34,7 +34,7 @@ inline std::string normalizeLocationName(const std::string& name) {
 }
 
 inline constexpr double EPSILON = 1e-9;
-} // namespace detail
+} // namespace detail to make conflict free
 
 class VenueGraph {
 public:
@@ -289,7 +289,7 @@ public:
         }
         return result;
     }
-
+    //BFS
     std::vector<int> reachableByBFS(int source) const {
         std::vector<int> order;
         if (!validId(source) || !locations[source].open) return order;

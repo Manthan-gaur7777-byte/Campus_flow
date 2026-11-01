@@ -23,8 +23,8 @@ You need a compiler with C++17 support (g++ or MinGW-w64 on Windows). It was bui
 **With make (Linux, macOS, MSYS2/MinGW):**
 
 ```
-make            # builds ./campusflow
-./campusflow    # run it (campusflow.exe on Windows)
+make            # builds ./a.out
+./a.out         # run it (also ./a.out on Windows MSYS2/MinGW)
 make test       # builds and runs all 5 test suites
 make demo       # replays the sample inputs and compares with expected output
 make clean      # removes build files
@@ -33,8 +33,8 @@ make clean      # removes build files
 **Without make (Windows PowerShell or any shell):**
 
 ```
-g++ -std=c++17 -Wall -Wextra -O2 allocation.cpp hash_table.cpp persistence.cpp seat_grid.cpp segment_tree.cpp waitlist_heap.cpp waitlist.cpp occupancy.cpp graph_menu.cpp venue_link.cpp main.cpp -o campusflow
-.\campusflow.exe
+g++ -std=c++17 -Wall -Wextra -O2 -Iinclude Source/*.cpp -o a.out
+.\a.out
 ```
 
 To build one test suite by hand, replace `main.cpp` with the test file, for
@@ -43,7 +43,7 @@ example `test_integration.cpp -o test_integration`.
 To run a sample input instead of typing:
 
 ```
-./campusflow < samples/full_demo_input.txt
+./a.out < samples/full_demo_input.txt
 ```
 
 ---
